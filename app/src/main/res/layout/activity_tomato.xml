@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TomatoActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!-- Heading -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Best Fertilizers for you"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduction:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The life cycle of a tomato plant is directly tied to the cultivar or variety of the tomato. Small determinate fruits tend to develop more quickly while beefsteak and many heirloom varieties take longer. Generally it takes from 60 to 100 days from germination to harvest."
+            android:textSize="18sp"
+            android:padding="16dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="282dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/tgrow" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stage 1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="Early Growth(0 - 25 days):"
+            android:autoSizeTextType="uniform"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chemicals and Fertilizers:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="Phosphorous is crucial for the growth and development of roots as well as fruit. It is therefore an important nutrient in the initial stage and then again in the final stage.\n
+Nitrogen takes care of the foliage, but too much nitrogen leads to bushy plants with little or no fruit.\n
+Potassium helps the plant grow rapidly and produce flowers and fruit. But it's very important when it comes to photosynthesis and tolerance to some diseases."
+            android:textSize="15sp" />
+        <ImageView
+            android:layout_width="399dp"
+            android:layout_height="362dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/npk19" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="MRP : Rs.142 /- per 1 kg"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usage:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="* The recommended dose of fertilizer through the drip irrigation method should be around 1.5 to 2gm of NPK should be mixed with per litre of water considering the crop and soil type. "
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stage 2"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="Flowering(25 - 55 days):"
+            android:autoSizeTextType="uniform" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chemicals and Fertilizers:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="Tomato plants need nitrogen and phosphorus, but not to excess. A healthy layer of composted manure over the planting bed -- 10 pounds per 10 square feet -- mixed into the top 6 inches of soil, will take care of the tomato plants through flowering."
+            android:textSize="15sp" />
+        <ImageView
+            android:layout_width="399dp"
+            android:layout_height="362dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/npk12" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="MRP : Rs.280 /- per 1 kg"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usage:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="* Mahadhan Flowering Special should be sprayed on the foliage during 45-50 and 80- 90 days after sowing/planting; dilution rate to be used is 5 g per litre of water."
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Major disease for tomato crop at flowering stage is 'Late Blight'.\n Symptoms:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/lateblight" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cure:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/fungi" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="MRP : Rs.360 /- per 250gm"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usage:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="The above mentioned fertilizer can be sprayed.Apply Chlorothalonil 82.5 WDG in 90 to 450 gallons of water per acre (2 to 10 gallons of water per 1,000 sq ft) for tees and greens and 30 to 450 gallons of water per acre (0.7 to 10 gallons of water per 1,000 sq ft) for all other turf."
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stage 3"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="Mature Fruting(55-80 days):"
+            android:autoSizeTextType="uniform" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chemicals and Fertilizers:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="Some growers prefer to use a high-phosphorus fertilizer, indicated by a larger middle number. You can also keep things simple with a fertilizer especially formulated for tomatoes – usually with a ratio like 3-4-6 or 4-7-10. Most importantly, don't over-fertilize"
+            android:textSize="15sp" />
+        <ImageView
+            android:layout_width="399dp"
+            android:layout_height="362dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/npk13" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="MRP : Rs.220 /- per 1 kg"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usage:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="* Drip Irrigation- As per schedule.\n
+Foliar- 1.0 to 1.5 % (10 to 15 gm per liter of water).\n
+One spray at 60-70 days after sowing."
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Major disease for tomato crop at fruting stage is 'Bacterial spot'.\n Symptoms:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/spot" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cure:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/spot1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="MRP : Rs.340 /- per 250ml"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usage:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="The above mentioned fertilizer can be sprayed.No Virus Tomato and Cucurbit 3-5 ml/ liter of water through the spray-Foliar Application."
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stage 4"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="Ripening Stage(80 - 100 days):"
+            android:autoSizeTextType="uniform" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chemicals and Fertilizers:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="Calcium nitrate: Calcium is crucial for preventing disorders like blossom-end rot and ensuring proper fruit development. Calcium nitrate can be applied as a foliar spray or soil drench to supply additional calcium to the plants during the ripening stage.\n Potassium sulfate: Potassium is important for fruit development, flavor, and quality. Potassium sulfate can be applied as a fertilizer to ensure an adequate supply of potassium for the ripening tomatoes."
+            android:textSize="15sp" />
+        <ImageView
+            android:layout_width="399dp"
+            android:layout_height="362dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ps" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="MRP : Rs.215 /- per 1 kg"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usage:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="* The fertilizer should be used considering the proportion and time of the crop cycle. \n
+ * The recommended dose of fertilizer through the drip irrigation method should be around 1.5 to 2.5gm of fertilizer mixed with per litre of water considering the crop and soil type."
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Major disease for tomato crop at Ripening stage is 'Gray Mold'.\n Symptoms:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/mold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cure:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/tml" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="MRP : Rs.280 /- per 500gm"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usage:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="The above mentioned fertilizer can be sprayed\n.Foliar Spray : Spray @ 250 to 500 gm per ha. (0.5 g/lit of water).\nSeed Treatment : @ 2 to 3 gm/kg of Seeds.\nSeedling Dip : Dip the seedlings in Roko suspension @ 1 - 1.5 g/lit. of Water.\nSoil Drench : Drench the soil with Roko @ 2 - 4 g/lit of water (Flower beds/Nurseries).\nPHT : Dipping or spraying @ 0.5 g/lit of water and drying under the shade."
+            android:textSize="15sp"/>
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

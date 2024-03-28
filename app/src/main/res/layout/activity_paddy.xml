@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaddyActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!-- Heading -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Best Fertilizers for you"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduction:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp" />
+
+    <!-- Introduction -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rice varieties range in duration from 90 to more than 150 days and with three main crop stages: vegetative (from germination to panicle initiation, from 45 to 100 days), reproductive (from panicle initiation to flowering, around 35 days) and maturity (from flowering to mature grain, around 30 days)."
+        android:textSize="18sp"
+        android:padding="16dp" />
+
+    <!-- Rest of the content goes here -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pgrow"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:padding="16dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stage 1 "
+        android:autoSizeTextType="uniform"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <!-- Germination and Establishment -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:autoSizeTextType="uniform"
+        android:paddingBottom="16dp"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:text="Vegetation Stage(0-48 days):"
+        android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chemiclas and Fertilizers"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="In the vegetative phase of growth there are four stages:\n (1) emergence\n (2) seedling development\n (3) tillering and\n (4) internode elongation."
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="In stage 1 plant requires N:P:K ratio 50:12:12 which means 50kg nitrogen,12kg phosporous and 12 kg potassium is required for 2.47 acres which is eual to one hectare. And zinc is used for development of crops and RIFIT is used for removal of Weeds. "
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="399dp"
+            android:layout_height="362dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/zinc" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="MRP : Rs.746 /- per 1 litre"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="399dp"
+            android:layout_height="362dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/rifit" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="MRP : Rs.320 /- per 250ml"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usage:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="* The fertilizers zinc and Rifit can be applied directly to the soil at the time of sowing at the rate of 1 litre/acre.\n * The fertilizer N:P:K in ratio 50:12:12 can be applied directly to the soil. "
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stage 2 "
+            android:autoSizeTextType="uniform"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="Reproductive Stage(48-78 days):"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chemiclas and Fertilizers"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="The reproductive growth phase is characterized by culm elongation (which increases plant height), decline in tiller number, emergence of the flag leaf (the last leaf), booting, heading, and flowering of the spikelets."
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="In stage 2 plant requires N:P:K ratio 70:12:18 which means 70kg nitrogen,12kg phosporous and 18 kg potassium is required for 2.47 acres which is eual to one hectare. And Nominee Gold is used as herbicide and to controls major grasses, sedges and broad leaf weeds of rice. NOMINEE GOLD offers a wide application window from 2-5 leaf stages of weeds. "
+            android:textSize="15sp" />
+        <ImageView
+            android:layout_width="399dp"
+            android:layout_height="362dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/gold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="MRP : Rs.584 /- per 100ml"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usage:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="* Nominee Gold gets absorbed quickly in weeds and results are unaffected even if it rains after 6 hours of application. Nominee Gold has a low dosage of 80-120 ml/acre is sprayed.\n * The fertilizer N:P:K in ratio 70:12:18 can be applied directly to the soil. " />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stage 3 "
+        android:autoSizeTextType="uniform"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="Ripening Stage(78-95 days):"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chemiclas and Fertilizers"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="At the ripening stage of rice the yellowing of leaves begins to develop gradually from the lower part of plant to upward. Several inorganic substances which had been absorbed into the leaves start to translocate from these yellow leaves into grains."
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="In stage 3 plant requires N:P:K ratio 100:31:39 which means 100kg nitrogen,31kg phosporous and 39 kg potassium is required for 2.47 acres which is eual to one hectare."
+            android:textSize="15sp" />
+        <ImageView
+            android:layout_width="399dp"
+            android:layout_height="362dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/npk" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text=" For N- Urea:\nMRP : Rs.268 /- per 50kg bag"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text=" For P- DAP:\nMRP : Rs.1120 /- per 50kg bag"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text=" For K- DAP:\nMRP : Rs.3250 /- per 50kg bag"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usage:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="* The fertilizer N:P:K in ratio 70:12:18 can be applied directly to the soil. " />
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

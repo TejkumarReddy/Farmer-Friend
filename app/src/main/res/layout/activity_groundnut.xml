@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GroundnutActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!-- Heading -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Best Fertilizers for you"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Introduction:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+
+        <!-- Introduction -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This crop can be grown with a minimum rainfall of 500mm and maximum of 120mm. This crop mainly cultivated in kharif and Rabi season that means June to November and October to December. The life span of Ground nut is 90-100 days."
+            android:textSize="18sp"
+            android:padding="16dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/gnut" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chemicals"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="The main Fertilizer components in Groundnut Farming are Nitrogen, Phosphorus, Potassium, Calcium, Sulphur, Iron, Zinc."
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fertilizers"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="The main fertilizers for ground nut crop are Nitrogen(N),Phosporous(P) and Potassium(K)"
+            android:textSize="15sp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/img" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Major disease for ground nut crop is 'TIKKA disease'.\n Symptoms:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/img_1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cure:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:adjustViewBounds="true"
+            android:padding="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/img_2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="MRP : Rs.350 /- per 250ml"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usage:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="16dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:text="The above mentioned fertilizer can be sprayed 25th and 35th day after sowing. Apply NPK fertilizers as per soil test recommendation."
+            android:textSize="15sp"/>
+        
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
